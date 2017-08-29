@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "second page"; ObjectID = "CXl-P3-A8Z"; */
+"CXl-P3-A8Z.text" = "second page";
+
+/* Class = "UINavigationItem"; title = "second page"; ObjectID = "D6k-wc-efR"; */
+"D6k-wc-efR.title" = "second page";
+
+/* Class = "UINavigationItem"; title = "Swift API Demo"; ObjectID = "Kmr-4c-YgK"; */
+"Kmr-4c-YgK.title" = "Swift API Demo";
+
+/* Class = "UIButton"; normalTitle = "actions"; ObjectID = "h7O-cR-gQ9"; */
+"h7O-cR-gQ9.normalTitle" = "actions";
+
+/* Class = "UILabel"; text = "found:"; ObjectID = "mB3-u3-JXM"; */
+"mB3-u3-JXM.text" = "found:";
+
+/* Class = "UILabel"; text = "time:"; ObjectID = "xu4-dj-gz2"; */
+"xu4-dj-gz2.text" = "time:";

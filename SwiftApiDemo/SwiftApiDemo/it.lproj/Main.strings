@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Blv-o2-7FX"; */
+"Blv-o2-7FX.text" = "Title";
+
+/* Class = "UILabel"; text = "Second Page"; ObjectID = "CXl-P3-A8Z"; */
+"CXl-P3-A8Z.text" = "seconda Pagina";
+
+/* Class = "UINavigationItem"; title = "second page"; ObjectID = "D6k-wc-efR"; */
+"D6k-wc-efR.title" = "seconda pagina";
+
+/* Class = "UINavigationItem"; title = "Swift API Demo"; ObjectID = "Kmr-4c-YgK"; */
+"Kmr-4c-YgK.title" = "Swift API Demo";
+
+/* Class = "UILabel"; text = "0000"; ObjectID = "O5e-zA-g7J"; */
+"O5e-zA-g7J.text" = "0000";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "SWI-FT-9M7"; */
+"SWI-FT-9M7.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "g2t-AS-Pzq"; */
+"g2t-AS-Pzq.text" = "00:00";
+
+/* Class = "UIButton"; normalTitle = "actions"; ObjectID = "h7O-cR-gQ9"; */
+"h7O-cR-gQ9.normalTitle" = "azioni";
+
+/* Class = "UILabel"; text = "found:"; ObjectID = "mB3-u3-JXM"; */
+"mB3-u3-JXM.text" = "trovato:";
+
+/* Class = "UILabel"; text = "time:"; ObjectID = "xu4-dj-gz2"; */
+"xu4-dj-gz2.text" = "tempo:";

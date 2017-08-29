@@ -1,0 +1,1014 @@
+/* The standard CSS for doxygen */
+
+div.doxygen div.navpath, div.doxygen div.header div.summary {display: none} 
+
+div.doxygen, div.doxygen table, div.doxygen div, div.doxygen p, div.doxygen dl {
+	font-family: Lucida Grande, Verdana, Geneva, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.3;
+}
+
+/* @group Heading Levels */
+
+div.doxygen h1 {
+	font-size: 150%;
+}
+
+div.doxygen .title {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 10px 2px;
+}
+
+div.doxygen h2 {
+	font-size: 120%;
+}
+
+div.doxygen h3 {
+	font-size: 100%;
+}
+
+div.doxygen dt {
+	font-weight: bold;
+}
+
+div.doxygen div.multicol {
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+}
+
+div.doxygen p.startli, div.doxygen p.startdd, div.doxygen p.starttd {
+	margin-top: 2px;
+}
+
+div.doxygen p.endli {
+	margin-bottom: 0px;
+}
+
+div.doxygen p.enddd {
+	margin-bottom: 4px;
+}
+
+div.doxygen p.endtd {
+	margin-bottom: 2px;
+}
+
+/* @end */
+
+div.doxygen caption {
+	font-weight: bold;
+}
+
+div.doxygen span.legend {
+        font-size: 70%;
+        text-align: center;
+}
+
+div.doxygen h3.version {
+        font-size: 90%;
+        text-align: center;
+}
+
+div.doxygen div.qindex, div.doxygen div.navtab{
+	background-color: #EBEFF6;
+	border: 1px solid #A3B4D7;
+	text-align: center;
+}
+
+div.doxygen div.qindex, div.doxygen div.navpath {
+	width: 100%;
+	line-height: 140%;
+}
+
+div.doxygen div.navtab {
+	margin-right: 15px;
+}
+
+/* @group Link Styling */
+
+div.doxygen a {
+	color: #3D578C;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+div.doxygen .contents a:visited {
+	color: #4665A2;
+}
+
+div.doxygen a:hover {
+	text-decoration: underline;
+}
+
+div.doxygen a.qindex {
+	font-weight: bold;
+}
+
+div.doxygen a.qindexHL {
+	font-weight: bold;
+	background-color: #9CAFD4;
+	color: #ffffff;
+	border: 1px double #869DCA;
+}
+
+div.doxygen .contents a.qindexHL:visited {
+        color: #ffffff;
+}
+
+div.doxygen a.el {
+	font-weight: bold;
+}
+
+div.doxygen a.elRef {
+}
+
+div.doxygen a.code, div.doxygen a.code:visited {
+	color: #4665A2; 
+}
+
+div.doxygen a.codeRef, div.doxygen a.codeRef:visited {
+	color: #4665A2; 
+}
+
+/* @end */
+
+div.doxygen dl.el {
+	margin-left: -1cm;
+}
+
+div.doxygen .fragment {
+	font-family: monospace, fixed;
+	font-size: 105%;
+}
+
+div.doxygen pre.fragment {
+	border: 1px solid #C4CFE5;
+	background-color: #FBFCFD;
+	padding: 4px 6px;
+	margin: 4px 8px 4px 2px;
+	overflow: auto;
+	word-wrap: break-word;
+	font-size:  9pt;
+	line-height: 125%;
+}
+
+div.doxygen div.ah {
+	background-color: black;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	padding: 0.2em;
+	border: solid thin #333;
+	border-radius: 0.5em;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	box-shadow: 2px 2px 3px #999;
+	-webkit-box-shadow: 2px 2px 3px #999;
+	-moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#000),color-stop(0.3, #444));
+	background-image: -moz-linear-gradient(center top, #eee 0%, #444 40%, #000);
+}
+
+div.doxygen div.groupHeader {
+	margin-left: 16px;
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+div.doxygen div.groupText {
+	margin-left: 16px;
+	font-style: italic;
+}
+
+div.doxygen {
+	background-color: white;
+	color: black;
+        margin: 0;
+}
+
+div.doxygen div.doxygens {
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+div.doxygen td.indexkey {
+	background-color: #EBEFF6;
+	font-weight: bold;
+	border: 1px solid #C4CFE5;
+	margin: 2px 0px 2px 0;
+	padding: 2px 10px;
+        white-space: nowrap;
+        vertical-align: top;
+}
+
+div.doxygen td.indexvalue {
+	background-color: #EBEFF6;
+	border: 1px solid #C4CFE5;
+	padding: 2px 10px;
+	margin: 2px 0px;
+}
+
+div.doxygen tr.memlist {
+	background-color: #EEF1F7;
+}
+
+div.doxygen p.formulaDsp {
+	text-align: center;
+}
+
+div.doxygen img.formulaDsp {
+	
+}
+
+div.doxygen img.formulaInl {
+	vertical-align: middle;
+}
+
+div.doxygen div.center {
+	text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+}
+
+div.doxygen div.center img {
+	border: 0px;
+}
+
+div.doxygen address.footer {
+	text-align: right;
+	padding-right: 12px;
+}
+
+div.doxygen img.footer {
+	border: 0px;
+	vertical-align: middle;
+}
+
+/* @group Code Colorization */
+
+div.doxygen span.keyword {
+	color: #008000
+}
+
+div.doxygen span.keywordtype {
+	color: #604020
+}
+
+div.doxygen span.keywordflow {
+	color: #e08000
+}
+
+div.doxygen span.comment {
+	color: #800000
+}
+
+div.doxygen span.preprocessor {
+	color: #806020
+}
+
+div.doxygen span.stringliteral {
+	color: #002080
+}
+
+div.doxygen span.charliteral {
+	color: #008080
+}
+
+div.doxygen span.vhdldigit { 
+	color: #ff00ff 
+}
+
+div.doxygen span.vhdlchar { 
+	color: #000000 
+}
+
+div.doxygen span.vhdlkeyword { 
+	color: #700070 
+}
+
+div.doxygen span.vhdllogic { 
+	color: #ff0000 
+}
+
+div.doxygen blockquote {
+        background-color: #F7F8FB;
+        border-left: 2px solid #9CAFD4;
+        margin: 0 24px 0 4px;
+        padding: 0 12px 0 16px;
+}
+
+/* @end */
+
+/*
+.search {
+	color: #003399;
+	font-weight: bold;
+}
+
+form.search {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+input.search {
+	font-size: 75%;
+	color: #000080;
+	font-weight: normal;
+	background-color: #e8eef2;
+}
+*/
+
+div.doxygen td.tiny {
+	font-size: 75%;
+}
+
+div.doxygen .dirtab {
+	padding: 4px;
+	border-collapse: collapse;
+	border: 1px solid #A3B4D7;
+}
+
+div.doxygen th.dirtab {
+	background: #EBEFF6;
+	font-weight: bold;
+}
+
+div.doxygen hr {
+	height: 0px;
+	border: none;
+	border-top: 1px solid #4A6AAA;
+}
+
+div.doxygen hr.footer {
+	height: 1px;
+}
+
+/* @group Member Descriptions */
+
+div.doxygen table.memberdecls {
+	border-spacing: 0px;
+	padding: 0px;
+}
+
+div.doxygen .mdescLeft, div.doxygen .mdescRight,
+div.doxygen .memItemLeft, div.doxygen .memItemRight,
+div.doxygen .memTemplItemLeft, div.doxygen .memTemplItemRight, div.doxygen .memTemplParams {
+	background-color: #F9FAFC;
+	border: none;
+	margin: 4px;
+	padding: 1px 0 0 8px;
+}
+
+div.doxygen .mdescLeft, div.doxygen .mdescRight {
+	padding: 0px 8px 4px 8px;
+	color: #555;
+}
+
+div.doxygen .memItemLeft, div.doxygen .memItemRight, div.doxygen .memTemplParams {
+	border-top: 1px solid #C4CFE5;
+}
+
+div.doxygen .memItemLeft, div.doxygen .memTemplItemLeft {
+        white-space: nowrap;
+}
+
+div.doxygen .memItemRight {
+	width: 100%;
+}
+
+div.doxygen .memTemplParams {
+	color: #4665A2;
+        white-space: nowrap;
+}
+
+/* @end */
+
+/* @group Member Details */
+
+/* Styles for detailed member documentation */
+
+div.doxygen .memtemplate {
+	font-size: 80%;
+	color: #4665A2;
+	font-weight: normal;
+	margin-left: 9px;
+}
+
+div.doxygen .memnav {
+	background-color: #EBEFF6;
+	border: 1px solid #A3B4D7;
+	text-align: center;
+	margin: 2px;
+	margin-right: 15px;
+	padding: 2px;
+}
+
+div.doxygen .mempage {
+	width: 100%;
+}
+
+div.doxygen .memitem {
+	padding: 0;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+div.doxygen .memname {
+        white-space: nowrap;
+        font-weight: bold;
+        margin-left: 6px;
+}
+
+div.doxygen .memproto, div.doxygen dl.reflist dt {
+        border-top: 1px solid #A8B8D9;
+        border-left: 1px solid #A8B8D9;
+        border-right: 1px solid #A8B8D9;
+        padding: 6px 0px 6px 0px;
+        color: #253555;
+        font-weight: bold;
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+        /* opera specific markup */
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        /* firefox specific markup */
+        -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+        -moz-border-radius-topright: 8px;
+        -moz-border-radius-topleft: 8px;
+        /* webkit specific markup */
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        -webkit-border-top-right-radius: 8px;
+        -webkit-border-top-left-radius: 8px;
+        background-image:url('Images/doc/nav_f.png');
+        background-repeat:repeat-x;
+        background-color: #E2E8F2;
+
+}
+
+div.doxygen .memdoc, div.doxygen dl.reflist dd {
+        border-bottom: 1px solid #A8B8D9;      
+        border-left: 1px solid #A8B8D9;      
+        border-right: 1px solid #A8B8D9; 
+        padding: 2px 5px;
+        background-color: #FBFCFD;
+        border-top-width: 0;
+        /* opera specific markup */
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        /* firefox specific markup */
+        -moz-border-radius-bottomleft: 8px;
+        -moz-border-radius-bottomright: 8px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+        background-image: -moz-linear-gradient(center top, #FFFFFF 0%, #FFFFFF 60%, #F7F8FB 95%, #EEF1F7);
+        /* webkit specific markup */
+        -webkit-border-bottom-left-radius: 8px;
+        -webkit-border-bottom-right-radius: 8px;
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        background-image: -webkit-gradient(linear,center top,center bottom,from(#FFFFFF), color-stop(0.6,#FFFFFF), color-stop(0.60,#FFFFFF), color-stop(0.95,#F7F8FB), to(#EEF1F7));
+}
+
+div.doxygen dl.reflist dt {
+        padding: 5px;
+}
+
+div.doxygen dl.reflist dd {
+        margin: 0px 0px 10px 0px;
+        padding: 5px;
+}
+
+div.doxygen .paramkey {
+	text-align: right;
+}
+
+div.doxygen .paramtype {
+	white-space: nowrap;
+}
+
+div.doxygen .paramname {
+	color: #602020;
+	white-space: nowrap;
+}
+div.doxygen .paramname em {
+	font-style: normal;
+}
+
+div.doxygen .params, div.doxygen .retval, div.doxygen .exception, div.doxygen .tparams {
+        border-spacing: 6px 2px;
+}       
+
+div.doxygen .params .paramname, div.doxygen .retval .paramname {
+        font-weight: bold;
+        vertical-align: top;
+}
+        
+div.doxygen .params .paramtype {
+        font-style: italic;
+        vertical-align: top;
+}       
+        
+div.doxygen .params .paramdir {
+        font-family: "courier new",courier,monospace;
+        vertical-align: top;
+}
+
+
+
+
+/* @end */
+
+/* @group Directory (tree) */
+
+/* for the tree view */
+
+div.doxygen .ftvtree {
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+/* these are for tree view when used as main index */
+
+div.doxygen .directory {
+	font-size: 9pt;
+	font-weight: bold;
+	margin: 5px;
+}
+
+div.doxygen .directory h3 {
+	margin: 0px;
+	margin-top: 1em;
+	font-size: 11pt;
+}
+
+/*
+The following two styles can be used to replace the root node title
+with an image of your choice.  Simply uncomment the next two styles,
+specify the name of your image and be sure to set 'height' to the
+proper pixel height of your image.
+*/
+
+/*
+.directory h3.swap {
+	height: 61px;
+	background-repeat: no-repeat;
+	background-image: url("yourimage.gif");
+}
+.directory h3.swap span {
+	display: none;
+}
+*/
+
+div.doxygen .directory > h3 {
+	margin-top: 0;
+}
+
+div.doxygen .directory p {
+	margin: 0px;
+	white-space: nowrap;
+}
+
+div.doxygen .directory div {
+	display: none;
+	margin: 0px;
+}
+
+div.doxygen .directory img {
+	vertical-align: -30%;
+}
+
+/* these are for tree view when not used as main index */
+
+div.doxygen .directory-alt {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+div.doxygen .directory-alt h3 {
+	margin: 0px;
+	margin-top: 1em;
+	font-size: 11pt;
+}
+
+div.doxygen .directory-alt > h3 {
+	margin-top: 0;
+}
+
+div.doxygen .directory-alt p {
+	margin: 0px;
+	white-space: nowrap;
+}
+
+div.doxygen .directory-alt div {
+	display: none;
+	margin: 0px;
+}
+
+div.doxygen .directory-alt img {
+	vertical-align: -30%;
+}
+
+/* @end */
+
+div.doxygen div.dynheader {
+        margin-top: 8px;
+}
+
+div.doxygen address {
+	font-style: normal;
+	color: #2A3D61;
+}
+
+div.doxygen table.doxtable {
+	border-collapse:collapse;
+        margin-top: 4px;
+        margin-bottom: 4px;
+}
+
+div.doxygen table.doxtable td, table.doxtable th {
+	border: 1px solid #2D4068;
+	padding: 3px 7px 2px;
+}
+
+div.doxygen table.doxtable th {
+	background-color: #374F7F;
+	color: #FFFFFF;
+	font-size: 110%;
+	padding-bottom: 4px;
+	padding-top: 5px;
+}
+
+div.doxygen table.fieldtable {
+        width: 100%;
+        margin-bottom: 10px;
+        border: 1px solid #A8B8D9;
+        border-spacing: 0px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px;
+        -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+div.doxygen .fieldtable td, div.doxygen .fieldtable th {
+        padding: 3px 7px 2px;
+}
+
+div.doxygen .fieldtable td.fieldtype, div.doxygen .fieldtable td.fieldname {
+        white-space: nowrap;
+        border-right: 1px solid #A8B8D9;
+        border-bottom: 1px solid #A8B8D9;
+        vertical-align: top;
+}
+
+div.doxygen .fieldtable td.fielddoc {
+        border-bottom: 1px solid #A8B8D9;
+        width: 100%;
+}
+
+div.doxygen .fieldtable tr:last-child td {
+        border-bottom: none;
+}
+
+div.doxygen .fieldtable th {
+        background-image:url('Images/doc/nav_f.png');
+        background-repeat:repeat-x;
+        background-color: #E2E8F2;
+        font-size: 90%;
+        color: #253555;
+        padding-bottom: 4px;
+        padding-top: 5px;
+        text-align:left;
+        -moz-border-radius-topleft: 4px;
+        -moz-border-radius-topright: 4px;
+        -webkit-border-top-left-radius: 4px;
+        -webkit-border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom: 1px solid #A8B8D9;
+}
+
+
+div.doxygen .tabsearch {
+	top: 0px;
+	left: 10px;
+	height: 36px;
+	background-image: url('Images/doc/tab_b.png');
+	z-index: 101;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+div.doxygen .navpath ul
+{
+	font-size: 11px;
+	background-image:url('Images/doc/tab_b.png');
+	background-repeat:repeat-x;
+	height:30px;
+	line-height:30px;
+	color:#8AA0CC;
+	border:solid 1px #C2CDE4;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+div.doxygen .navpath li
+{
+	list-style-type:none;
+	float:left;
+	padding-left:10px;
+	padding-right:15px;
+	background-image:url('Images/doc/bc_s.png');
+	background-repeat:no-repeat;
+	background-position:right;
+	color:#364D7C;
+}
+
+div.doxygen .navpath li.navelem a
+{
+	height:32px;
+	display:block;
+	text-decoration: none;
+	outline: none;
+}
+
+div.doxygen .navpath li.navelem a:hover
+{
+	color:#6884BD;
+}
+
+div.doxygen .navpath li.footer
+{
+        list-style-type:none;
+        float:right;
+        padding-left:10px;
+        padding-right:15px;
+        background-image:none;
+        background-repeat:no-repeat;
+        background-position:right;
+        color:#364D7C;
+        font-size: 8pt;
+}
+
+
+div.doxygen div.summary
+{
+	float: right;
+	font-size: 8pt;
+	padding-right: 5px;
+	width: 50%;
+	text-align: right;
+}       
+
+div.doxygen div.summary a
+{
+	white-space: nowrap;
+}
+
+div.doxygen div.ingroups
+{
+	margin-left: 5px;
+	font-size: 8pt;
+	padding-left: 5px;
+	width: 50%;
+	text-align: left;
+}
+
+div.doxygen div.ingroups a
+{
+	white-space: nowrap;
+}
+
+div.doxygen div.header
+{
+        background-image:url('Images/doc/nav_h.png');
+        background-repeat:repeat-x;
+	background-color: #F9FAFC;
+	margin:  0px;
+	border-bottom: 1px solid #C4CFE5;
+}
+
+div.doxygen div.headertitle
+{
+	padding: 5px 5px 5px 7px;
+}
+
+div.doxygen dl
+{
+        padding: 0 0 0 10px;
+}
+
+/* dl.note, dl.warning, dl.attention, dl.pre, dl.post, dl.invariant, dl.deprecated, dl.todo, dl.test, dl.bug */
+div.doxygen dl.section
+{
+        border-left:4px solid;
+        padding: 0 0 0 6px;
+}
+
+div.doxygen dl.note
+{
+        border-color: #D0C000;
+}
+
+div.doxygen dl.warning, dl.attention
+{
+        border-color: #FF0000;
+}
+
+div.doxygen dl.pre, div.doxygen dl.post, div.doxygen dl.invariant
+{
+        border-color: #00D000;
+}
+
+div.doxygen dl.deprecated
+{
+        border-color: #505050;
+}
+
+div.doxygen dl.todo
+{
+        border-color: #00C0E0;
+}
+
+div.doxygen dl.test
+{
+        border-color: #3030E0;
+}
+
+div.doxygen dl.bug
+{
+        border-color: #C08050;
+}
+
+div.doxygen dl.section dd {
+	margin-bottom: 6px;
+}
+
+
+div.doxygen #projectlogo
+{
+	text-align: center;
+	vertical-align: bottom;
+	border-collapse: separate;
+}
+ 
+div.doxygen #projectlogo img
+{ 
+	border: 0px none;
+}
+ 
+div.doxygen #projectname
+{
+	font: 300% Tahoma, Arial,sans-serif;
+	margin: 0px;
+	padding: 2px 0px;
+}
+    
+div.doxygen #projectbrief
+{
+	font: 120% Tahoma, Arial,sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.doxygen #projectnumber
+{
+	font: 50% Tahoma, Arial,sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.doxygen #titlearea
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	border-bottom: 1px solid #5373B4;
+}
+
+div.doxygen .image
+{
+        text-align: center;
+}
+
+div.doxygen .dotgraph
+{
+        text-align: center;
+}
+
+div.doxygen .mscgraph
+{
+        text-align: center;
+}
+
+div.doxygen .caption
+{
+	font-weight: bold;
+}
+
+div.doxygen div.zoom
+{
+	border: 1px solid #90A5CE;
+}
+
+div.doxygen dl.citelist {
+        margin-bottom:50px;
+}
+
+div.doxygen dl.citelist dt {
+        color:#334975;
+        float:left;
+        font-weight:bold;
+        margin-right:10px;
+        padding:5px;
+}
+
+div.doxygen dl.citelist dd {
+        margin:2px 0;
+        padding:5px 0;
+}
+
+div.doxygen div.toc {
+        padding: 14px 25px;
+        background-color: #F4F6FA;
+        border: 1px solid #D8DFEE;
+        border-radius: 7px 7px 7px 7px;
+        float: right;
+        height: auto;
+        margin: 0 20px 10px 10px;
+        width: 200px;
+}
+
+div.doxygen div.toc li {
+        background: url("Images/doc/bdwn.png") no-repeat scroll 0 5px transparent;
+        font: 10px/1.2 Verdana,DejaVu Sans,Geneva,sans-serif;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-top: 2px;
+}
+
+div.doxygen div.toc h3 {
+        font: bold 12px/1.2 Arial,FreeSans,sans-serif;
+	color: #4665A2;
+        border-bottom: 0 none;
+        margin: 0;
+}
+
+div.doxygen div.toc ul {
+        list-style: none outside none;
+        border: medium none;
+        padding: 0px;
+}       
+
+div.doxygen div.toc li.level1 {
+        margin-left: 0px;
+}
+
+div.doxygen div.toc li.level2 {
+        margin-left: 15px;
+}
+
+div.doxygen div.toc li.level3 {
+        margin-left: 30px;
+}
+
+div.doxygen div.toc li.level4 {
+        margin-left: 45px;
+}
+
+
+@media print
+{
+  div.doxygen #top { display: none; }
+  div.doxygen #side-nav { display: none; }
+  div.doxygen #nav-path { display: none; }
+  div.doxygen  { overflow:visible; }
+  div.doxygen h1, div.doxygen h2, div.doxygen h3, div.doxygen h4, div.doxygen h5, div.doxygen h6 { page-break-after: avoid; }
+  div.doxygen .summary { display: none; }
+  div.doxygen .memitem { page-break-inside: avoid; }
+  div.doxygen #doc-content
+  {
+    margin-left:0 !important;
+    height:auto !important;
+    width:auto !important;
+    overflow:inherit;
+    display:inline;
+  }
+  div.doxygen pre.fragment
+  {
+    overflow: visible;
+    text-wrap: unrestricted;
+    white-space: -moz-pre-wrap; /* Moz */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: pre-wrap; /* CSS3  */
+    word-wrap: break-word; /* IE 5.5+ */
+  }
+}
+

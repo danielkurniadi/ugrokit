@@ -1,0 +1,8 @@
+/* App name, short */
+"CFBundleName" = "Swift API Demo";
+
+/* App name, long */
+"CFBundleDisplayName" = "Swift API Demo";
+
+/* Copyright */
+"NSHumanReadableCopyright" = "Copyright © 2011-2016 U Grok It";

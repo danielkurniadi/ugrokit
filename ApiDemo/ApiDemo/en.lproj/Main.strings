@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "time:"; ObjectID = "1VM-u1-WSQ"; */
+"1VM-u1-WSQ.text" = "time:";
+
+/* Class = "UILabel"; text = "second page"; ObjectID = "6ky-MZ-7xg"; */
+"6ky-MZ-7xg.text" = "second page";
+
+/* Class = "UINavigationItem"; title = "API Demo"; ObjectID = "ASr-eg-OZg"; */
+"ASr-eg-OZg.title" = "API Demo";
+
+/* Class = "UILabel"; text = "found:"; ObjectID = "JEt-Rx-7Od"; */
+"JEt-Rx-7Od.text" = "found:";
+
+/* Class = "UIButton"; normalTitle = "actions"; ObjectID = "Tal-1u-KxI"; */
+"Tal-1u-KxI.normalTitle" = "actions";
+
+/* Class = "UINavigationItem"; title = "second page"; ObjectID = "Uce-ak-H1v"; */
+"Uce-ak-H1v.title" = "second page";

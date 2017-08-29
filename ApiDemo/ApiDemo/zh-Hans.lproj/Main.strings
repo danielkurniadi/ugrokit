@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "time:"; ObjectID = "1VM-u1-WSQ"; */
+"1VM-u1-WSQ.text" = "时间：";
+
+/* Class = "UILabel"; text = "0000"; ObjectID = "5Lc-mr-Akx"; */
+"5Lc-mr-Akx.text" = "0000";
+
+/* Class = "UILabel"; text = "Second Page"; ObjectID = "6ky-MZ-7xg"; */
+"6ky-MZ-7xg.text" = "第二页";
+
+/* Class = "UINavigationItem"; title = "API Demo"; ObjectID = "ASr-eg-OZg"; */
+"ASr-eg-OZg.title" = "Api演示";
+
+/* Class = "UILabel"; text = "found:"; ObjectID = "JEt-Rx-7Od"; */
+"JEt-Rx-7Od.text" = "发现：";
+
+/* Class = "UIButton"; normalTitle = "actions"; ObjectID = "Tal-1u-KxI"; */
+"Tal-1u-KxI.normalTitle" = "行动";
+
+/* Class = "UINavigationItem"; title = "second page"; ObjectID = "Uce-ak-H1v"; */
+"Uce-ak-H1v.title" = "第二页";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "faG-H7-15k"; */
+"faG-H7-15k.text" = "00:00";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "k4p-P7-mep"; */
+"k4p-P7-mep.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "tS7-kk-thy"; */
+"tS7-kk-thy.text" = "Subtitle";
