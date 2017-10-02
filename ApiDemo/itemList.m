@@ -28,7 +28,6 @@
     
     [self updateUI];
     [self fetchItemList];
-    
 
     
     // Uncomment the following line to preserve selection between presentations.
@@ -42,7 +41,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+// 
 -(void) updateUI{
     [self.footer setCenterText:NSLocalizedStringWithDefaultValue(@"FooterStart", @"Localizable", [NSBundle mainBundle], @"start", @"Footer button: export csv") withCompletion:^{
         //[self startScanning];
@@ -144,6 +143,10 @@
     }
 }
 
+- (void)exportCSV{
+    NSLog(@"EXPORTING");
+    
+}
 
 - (void)dealloc {
     [_filterBtn release];
@@ -160,7 +163,7 @@
                                }],
                 [UgiMenuItem itemWithTitle:@"Export CSV"
                                withHandler:^{
-                                   [self performSegueWithIdentifier:@"downloadInvSegue" sender:self];
+                                   [self exportCSV];
                                }],
                 nil]];
 }
